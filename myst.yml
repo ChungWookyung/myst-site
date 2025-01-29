@@ -1,0 +1,35 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  subject: 主題
+  venue: 学会名
+  title: 題名
+  subtitle: 副題名
+  keywords:
+    - キーワード１番目
+    - 次のキーワード
+  date: 2025-01-29
+  authors:
+    - name: 鄭　宇景
+      orcid: 0000-0002-7693-0250
+      affiliation: kgu
+      email: ujon@kanto-gakuen.ac.jp
+      url: https://www.wkchung.com
+  affiliations: 
+    - id: kgu
+      institution: 関東学園大学
+      department: 経済学部経済学科
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  # exports:
+  #   - format: pdf
+  #     article: 01-main.md
+  banner: ./images/banner.jpg
+site:
+  template: article-theme
+  options:
+      hide_footer_links: true
+      hide_outline: false
+#      nav: []
+      favicon: ./images/favicon.ico
