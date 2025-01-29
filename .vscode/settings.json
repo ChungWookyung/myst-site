@@ -1,0 +1,26 @@
+{
+    "actionButtons": {
+
+
+        "commands": [{
+   			"name": "Preview MYST",
+   			"color": "orange",
+            "useVsCodeApi": true,
+   			"command": "simpleBrowser.show",
+            "args": ["http://localhost:3000"]
+   	     },
+            {
+                "name": "Start MYST",
+                "color": "orange",
+                "command": "myst start",
+             },
+             {
+                "name": "Init MYST",
+                "color": "orange",
+                "command": "myst",
+             }],
+        "defaultColor": "white",
+        "reloadButton": "↻",
+        "loadNpmCommands": false
+    }
+}
